@@ -1,0 +1,408 @@
+{
+  "version": "31.1.8",
+  "data": "<mxfile host=\"app.diagrams.net\"><diagram name=\"Page-1\" id=\"Y_MXI3QUkVyI0ccSPBXB\"><mxGraphModel dx=\"1784\" dy=\"627\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"850\" pageHeight=\"1100\" math=\"0\" shadow=\"0\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"ORULmgHnLGWzdHYcrGH9-10\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-1\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-2\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-12\" connectable=\"0\" parent=\"ORULmgHnLGWzdHYcrGH9-10\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"has\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"0.0957\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-15\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-1\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-14\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-16\" connectable=\"0\" parent=\"ORULmgHnLGWzdHYcrGH9-15\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"supports\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"-0.2333\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-32\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-1\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;\" target=\"gxedOLahY2naz9_Xpemp-31\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-33\" connectable=\"0\" parent=\"gxedOLahY2naz9_Xpemp-32\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"be cautions/mindful of\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"0.0074\" y=\"-8\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-1\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"CastAWeigh weight loss AI agent\" vertex=\"1\"><mxGeometry height=\"60\" width=\"120\" x=\"420\" y=\"230\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-5\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-2\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-3\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-6\" connectable=\"0\" parent=\"ORULmgHnLGWzdHYcrGH9-5\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"allows\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"-0.0092\" y=\"1\" as=\"geometry\"><mxPoint y=\"1\" as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-8\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-2\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-7\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-9\" connectable=\"0\" parent=\"ORULmgHnLGWzdHYcrGH9-8\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"inquires on\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"0.0471\" y=\"-3\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-34\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-2\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-13\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-35\" connectable=\"0\" parent=\"ORULmgHnLGWzdHYcrGH9-34\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"remembers\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"-0.0839\" y=\"3\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-9\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-2\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;\" target=\"gxedOLahY2naz9_Xpemp-8\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-10\" connectable=\"0\" parent=\"gxedOLahY2naz9_Xpemp-9\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"offers\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"0.0957\" y=\"3\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-18\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-2\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;\" target=\"gxedOLahY2naz9_Xpemp-11\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-19\" connectable=\"0\" parent=\"gxedOLahY2naz9_Xpemp-18\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"recommends\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"0.0267\" y=\"9\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-2\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"Capabilities\" vertex=\"1\"><mxGeometry height=\"60\" width=\"100\" x=\"260\" y=\"260\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-4\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-3\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-24\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-5\" connectable=\"0\" parent=\"gxedOLahY2naz9_Xpemp-4\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"to include\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"-0.4125\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-3\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"daily and intra-day recommendations on diet and exercise\" vertex=\"1\"><mxGeometry height=\"60\" width=\"110\" x=\"30\" y=\"200\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-7\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"intake of meals and exercise conducted since the last conversation\" vertex=\"1\"><mxGeometry height=\"60\" width=\"120\" x=\"20\" y=\"320\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-13\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"progress and compares against goals\" vertex=\"1\"><mxGeometry height=\"60\" width=\"120\" x=\"150\" y=\"400\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-18\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-14\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-17\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-19\" connectable=\"0\" parent=\"ORULmgHnLGWzdHYcrGH9-18\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"inquires on\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"0.2824\" y=\"8\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-26\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-14\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-25\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-30\" connectable=\"0\" parent=\"ORULmgHnLGWzdHYcrGH9-26\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"establish\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"-0.0943\" y=\"-12\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-13\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-14\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" target=\"gxedOLahY2naz9_Xpemp-12\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-14\" connectable=\"0\" parent=\"gxedOLahY2naz9_Xpemp-13\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"inquires about\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"0.0366\" y=\"-1\" as=\"geometry\"><mxPoint x=\"1\" y=\"1\" as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-16\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-14\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;\" target=\"gxedOLahY2naz9_Xpemp-15\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-17\" connectable=\"0\" parent=\"gxedOLahY2naz9_Xpemp-16\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"inquires about\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"-0.263\" y=\"-39\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-29\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-14\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"gxedOLahY2naz9_Xpemp-28\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-30\" connectable=\"0\" parent=\"gxedOLahY2naz9_Xpemp-29\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"inquires on\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"0.7167\" y=\"1\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-14\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"Initial Intake Process\" vertex=\"1\"><mxGeometry height=\"60\" width=\"100\" x=\"450\" y=\"350\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-17\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"Personal Information:&lt;div&gt;1. Name&lt;/div&gt;&lt;div&gt;2. Age&lt;/div&gt;&lt;div&gt;3. Gender&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"100\" width=\"90\" x=\"300\" y=\"430\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-22\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-14\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-24\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"460\" y=\"440\" as=\"sourcePoint\"/><mxPoint x=\"520\" y=\"520\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-23\" connectable=\"0\" parent=\"ORULmgHnLGWzdHYcrGH9-22\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"inquires on\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"0.2824\" y=\"8\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-6\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-24\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-13\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-7\" connectable=\"0\" parent=\"gxedOLahY2naz9_Xpemp-6\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"evaluates\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"0.68\" y=\"-15\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-24\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"Body measurements:&lt;div&gt;1. waist&lt;/div&gt;&lt;div&gt;2. hips&lt;/div&gt;&lt;div&gt;3. chest&lt;/div&gt;&lt;div&gt;4. arms&lt;/div&gt;&lt;div&gt;5. thighs&lt;/div&gt;&lt;div&gt;6. height&lt;/div&gt;&lt;div&gt;7. weight&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"140\" width=\"90\" x=\"450\" y=\"500\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-28\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-25\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-27\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-29\" connectable=\"0\" parent=\"ORULmgHnLGWzdHYcrGH9-28\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"may be any combination of\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"-0.4383\" y=\"6\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-32\" edge=\"1\" parent=\"1\" source=\"ORULmgHnLGWzdHYcrGH9-25\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-31\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-33\" connectable=\"0\" parent=\"ORULmgHnLGWzdHYcrGH9-32\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"within\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"0.0824\" y=\"-2\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-25\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"Goals\" vertex=\"1\"><mxGeometry height=\"30\" width=\"90\" x=\"630\" y=\"430\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-27\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"Examples:&lt;div&gt;1. weight loss&lt;/div&gt;&lt;div&gt;2. musce tone&lt;/div&gt;&lt;div&gt;3. open ended (ask)&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"80\" width=\"130\" x=\"740\" y=\"550\" as=\"geometry\"/></mxCell><mxCell id=\"ORULmgHnLGWzdHYcrGH9-31\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"defined timeline\" vertex=\"1\"><mxGeometry height=\"60\" width=\"120\" x=\"781\" y=\"410\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-8\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"motivational comments and reminders to keep going\" vertex=\"1\"><mxGeometry height=\"60\" width=\"110\" x=\"120\" y=\"90\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-20\" edge=\"1\" parent=\"1\" source=\"gxedOLahY2naz9_Xpemp-11\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;\" target=\"gxedOLahY2naz9_Xpemp-12\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-21\" connectable=\"0\" parent=\"gxedOLahY2naz9_Xpemp-20\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"considerate of\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"-0.6315\" y=\"-7\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-22\" edge=\"1\" parent=\"1\" source=\"gxedOLahY2naz9_Xpemp-11\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;\" target=\"gxedOLahY2naz9_Xpemp-15\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-23\" connectable=\"0\" parent=\"gxedOLahY2naz9_Xpemp-22\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"considerate of\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"-0.5569\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-11\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"appropriate exercise suggestions and reminders\" vertex=\"1\"><mxGeometry height=\"60\" width=\"110\" x=\"460\" y=\"100\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-12\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"exercise equipment at disposal\" vertex=\"1\"><mxGeometry height=\"70\" width=\"90\" x=\"811\" y=\"250\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-15\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"alternative forms of exercise that does not require equipment\" vertex=\"1\"><mxGeometry height=\"80\" width=\"120\" x=\"760\" y=\"90\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-24\" edge=\"1\" parent=\"1\" source=\"gxedOLahY2naz9_Xpemp-11\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" target=\"ORULmgHnLGWzdHYcrGH9-25\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"590\" y=\"150\" as=\"sourcePoint\"/><mxPoint x=\"931\" y=\"298\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-25\" connectable=\"0\" parent=\"gxedOLahY2naz9_Xpemp-24\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"considerate of\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"-0.6315\" y=\"-7\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-26\" edge=\"1\" parent=\"1\" source=\"gxedOLahY2naz9_Xpemp-11\" style=\"edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1.011;entryY=0.207;entryDx=0;entryDy=0;entryPerimeter=0;\" target=\"ORULmgHnLGWzdHYcrGH9-24\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"460\" y=\"150\" as=\"sourcePoint\"/><mxPoint x=\"560.9899999999998\" y=\"508.05999999999995\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-27\" connectable=\"0\" parent=\"gxedOLahY2naz9_Xpemp-26\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" value=\"considerate of\" vertex=\"1\"><mxGeometry relative=\"1\" x=\"-0.6315\" y=\"-7\" as=\"geometry\"><mxPoint as=\"offset\"/></mxGeometry></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-28\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"history of previous exercise programs or routines\" vertex=\"1\"><mxGeometry height=\"70\" width=\"110\" x=\"560\" y=\"560\" as=\"geometry\"/></mxCell><mxCell id=\"gxedOLahY2naz9_Xpemp-31\" parent=\"1\" style=\"rounded=0;whiteSpace=wrap;html=1;\" value=\"nutrition intake&lt;div&gt;don't induce injury&lt;/div&gt;\" vertex=\"1\"><mxGeometry height=\"60\" width=\"120\" x=\"260\" y=\"40\" as=\"geometry\"/></mxCell></root></mxGraphModel></diagram></mxfile>",
+  "pages": [
+    {
+      "id": "Y_MXI3QUkVyI0ccSPBXB",
+      "name": "Page-1",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-10",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-1",
+          "target": "ORULmgHnLGWzdHYcrGH9-2"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-12",
+          "type": "node",
+          "parent": "ORULmgHnLGWzdHYcrGH9-10",
+          "label": "has"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-15",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-1",
+          "target": "ORULmgHnLGWzdHYcrGH9-14"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-16",
+          "type": "node",
+          "parent": "ORULmgHnLGWzdHYcrGH9-15",
+          "label": "supports"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-32",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-1",
+          "target": "gxedOLahY2naz9_Xpemp-31"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-33",
+          "type": "node",
+          "parent": "gxedOLahY2naz9_Xpemp-32",
+          "label": "be cautions/mindful of"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-1",
+          "type": "node",
+          "parent": "1",
+          "label": "CastAWeigh weight loss AI agent"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-5",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-2",
+          "target": "ORULmgHnLGWzdHYcrGH9-3"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-6",
+          "type": "node",
+          "parent": "ORULmgHnLGWzdHYcrGH9-5",
+          "label": "allows"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-8",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-2",
+          "target": "ORULmgHnLGWzdHYcrGH9-7"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-9",
+          "type": "node",
+          "parent": "ORULmgHnLGWzdHYcrGH9-8",
+          "label": "inquires on"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-34",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-2",
+          "target": "ORULmgHnLGWzdHYcrGH9-13"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-35",
+          "type": "node",
+          "parent": "ORULmgHnLGWzdHYcrGH9-34",
+          "label": "remembers"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-9",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-2",
+          "target": "gxedOLahY2naz9_Xpemp-8"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-10",
+          "type": "node",
+          "parent": "gxedOLahY2naz9_Xpemp-9",
+          "label": "offers"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-18",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-2",
+          "target": "gxedOLahY2naz9_Xpemp-11"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-19",
+          "type": "node",
+          "parent": "gxedOLahY2naz9_Xpemp-18",
+          "label": "recommends"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-2",
+          "type": "node",
+          "parent": "1",
+          "label": "Capabilities"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-4",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-3",
+          "target": "ORULmgHnLGWzdHYcrGH9-24"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-5",
+          "type": "node",
+          "parent": "gxedOLahY2naz9_Xpemp-4",
+          "label": "to include"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-3",
+          "type": "node",
+          "parent": "1",
+          "label": "daily and intra-day recommendations on diet and exercise"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-7",
+          "type": "node",
+          "parent": "1",
+          "label": "intake of meals and exercise conducted since the last conversation"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-13",
+          "type": "node",
+          "parent": "1",
+          "label": "progress and compares against goals"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-18",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-14",
+          "target": "ORULmgHnLGWzdHYcrGH9-17"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-19",
+          "type": "node",
+          "parent": "ORULmgHnLGWzdHYcrGH9-18",
+          "label": "inquires on"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-26",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-14",
+          "target": "ORULmgHnLGWzdHYcrGH9-25"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-30",
+          "type": "node",
+          "parent": "ORULmgHnLGWzdHYcrGH9-26",
+          "label": "establish"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-13",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-14",
+          "target": "gxedOLahY2naz9_Xpemp-12"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-14",
+          "type": "node",
+          "parent": "gxedOLahY2naz9_Xpemp-13",
+          "label": "inquires about"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-16",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-14",
+          "target": "gxedOLahY2naz9_Xpemp-15"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-17",
+          "type": "node",
+          "parent": "gxedOLahY2naz9_Xpemp-16",
+          "label": "inquires about"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-29",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-14",
+          "target": "gxedOLahY2naz9_Xpemp-28"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-30",
+          "type": "node",
+          "parent": "gxedOLahY2naz9_Xpemp-29",
+          "label": "inquires on"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-14",
+          "type": "node",
+          "parent": "1",
+          "label": "Initial Intake Process"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-17",
+          "type": "node",
+          "parent": "1",
+          "label": "Personal Information:\n1. Name\n2. Age\n3. Gender",
+          "html": "Personal Information:<div>1. Name</div><div>2. Age</div><div>3. Gender</div>"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-22",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-14",
+          "target": "ORULmgHnLGWzdHYcrGH9-24"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-23",
+          "type": "node",
+          "parent": "ORULmgHnLGWzdHYcrGH9-22",
+          "label": "inquires on"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-6",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-24",
+          "target": "ORULmgHnLGWzdHYcrGH9-13"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-7",
+          "type": "node",
+          "parent": "gxedOLahY2naz9_Xpemp-6",
+          "label": "evaluates"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-24",
+          "type": "node",
+          "parent": "1",
+          "label": "Body measurements:\n1. waist\n2. hips\n3. chest\n4. arms\n5. thighs\n6. height\n7. weight",
+          "html": "Body measurements:<div>1. waist</div><div>2. hips</div><div>3. chest</div><div>4. arms</div><div>5. thighs</div><div>6. height</div><div>7. weight</div>"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-28",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-25",
+          "target": "ORULmgHnLGWzdHYcrGH9-27"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-29",
+          "type": "node",
+          "parent": "ORULmgHnLGWzdHYcrGH9-28",
+          "label": "may be any combination of"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-32",
+          "type": "edge",
+          "parent": "1",
+          "source": "ORULmgHnLGWzdHYcrGH9-25",
+          "target": "ORULmgHnLGWzdHYcrGH9-31"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-33",
+          "type": "node",
+          "parent": "ORULmgHnLGWzdHYcrGH9-32",
+          "label": "within"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-25",
+          "type": "node",
+          "parent": "1",
+          "label": "Goals"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-27",
+          "type": "node",
+          "parent": "1",
+          "label": "Examples:\n1. weight loss\n2. musce tone\n3. open ended (ask)",
+          "html": "Examples:<div>1. weight loss</div><div>2. musce tone</div><div>3. open ended (ask)</div>"
+        },
+        {
+          "id": "ORULmgHnLGWzdHYcrGH9-31",
+          "type": "node",
+          "parent": "1",
+          "label": "defined timeline"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-8",
+          "type": "node",
+          "parent": "1",
+          "label": "motivational comments and reminders to keep going"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-20",
+          "type": "edge",
+          "parent": "1",
+          "source": "gxedOLahY2naz9_Xpemp-11",
+          "target": "gxedOLahY2naz9_Xpemp-12"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-21",
+          "type": "node",
+          "parent": "gxedOLahY2naz9_Xpemp-20",
+          "label": "considerate of"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-22",
+          "type": "edge",
+          "parent": "1",
+          "source": "gxedOLahY2naz9_Xpemp-11",
+          "target": "gxedOLahY2naz9_Xpemp-15"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-23",
+          "type": "node",
+          "parent": "gxedOLahY2naz9_Xpemp-22",
+          "label": "considerate of"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-11",
+          "type": "node",
+          "parent": "1",
+          "label": "appropriate exercise suggestions and reminders"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-12",
+          "type": "node",
+          "parent": "1",
+          "label": "exercise equipment at disposal"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-15",
+          "type": "node",
+          "parent": "1",
+          "label": "alternative forms of exercise that does not require equipment"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-24",
+          "type": "edge",
+          "parent": "1",
+          "source": "gxedOLahY2naz9_Xpemp-11",
+          "target": "ORULmgHnLGWzdHYcrGH9-25"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-25",
+          "type": "node",
+          "parent": "gxedOLahY2naz9_Xpemp-24",
+          "label": "considerate of"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-26",
+          "type": "edge",
+          "parent": "1",
+          "source": "gxedOLahY2naz9_Xpemp-11",
+          "target": "ORULmgHnLGWzdHYcrGH9-24"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-27",
+          "type": "node",
+          "parent": "gxedOLahY2naz9_Xpemp-26",
+          "label": "considerate of"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-28",
+          "type": "node",
+          "parent": "1",
+          "label": "history of previous exercise programs or routines"
+        },
+        {
+          "id": "gxedOLahY2naz9_Xpemp-31",
+          "type": "node",
+          "parent": "1",
+          "label": "nutrition intake\ndon't induce injury",
+          "html": "nutrition intake<div>don't induce injury</div>"
+        }
+      ]
+    }
+  ]
+}

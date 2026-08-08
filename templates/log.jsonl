@@ -1,0 +1,3 @@
+{"date":"2026-01-05","time":"07:30","type":"measurement","key":"weight","value":185.0,"unit":"lb"}
+{"date":"2026-01-05","time":"08:15","type":"meal","label":"breakfast","notes":"eggs, toast, black coffee"}
+{"date":"2026-01-05","time":"18:00","type":"exercise","label":"brisk walk","duration_min":30,"notes":"easy pace, felt good"}

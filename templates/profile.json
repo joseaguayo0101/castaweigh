@@ -1,0 +1,42 @@
+{
+  "intake_complete": false,
+  "intake_completed_at": null,
+  "name": null,
+  "age": null,
+  "gender": null,
+  "units": "imperial",
+  "goals": [
+    {
+      "type": null,
+      "target": null,
+      "timeline": null,
+      "notes": null
+    }
+  ],
+  "equipment": [],
+  "equipment_free_alternatives": [],
+  "limitations": [],
+  "exercise_history": null,
+  "measurements": {
+    "baseline": {
+      "date": null,
+      "weight": null,
+      "waist": null,
+      "hips": null,
+      "chest": null,
+      "arms": null,
+      "thighs": null,
+      "height": null
+    },
+    "current": {
+      "date": null,
+      "weight": null,
+      "waist": null,
+      "hips": null,
+      "chest": null,
+      "arms": null,
+      "thighs": null,
+      "height": null
+    }
+  }
+}
