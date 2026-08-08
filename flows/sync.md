@@ -1,19 +1,32 @@
-# Flow: Sync (Drive backup + restore)
+# Flow: Sync (git-first, Drive as optional backup)
 
-State stays local; this flow is how it survives a lost phone, a new device, or a fresh session with no `state/`. Backups go to Google Drive as **new dated files** — never edits to existing files, because that's what Drive integrations reliably support.
+How state survives across sessions, devices, and lost phones. Two layers, both free:
 
-Drive folder: `CastAWeigh Backups` (create it on first backup if it doesn't exist).
+1. **Git (primary)** — state lives in the user's PRIVATE repo (`castaweigh-state`), which contains a copy of this repo's instructions plus `state/`. Every sync is a commit; history is a free, versioned backup trail.
+2. **Google Drive (optional redundancy)** — dated snapshot files via the platform's Drive connector, for the day git isn't reachable.
 
 ## When to run
 
-- User says "sync", "backup", "save to Drive", or signals they're done for the day.
-- After a weekly review closes, if the last backup is >7 days old, offer a backup in one short sentence.
-- User says "restore", "new phone", or `state/` is missing AND the user says they have a Drive backup → run Restore instead of seeding from templates.
+- User says "sync", "backup", "save", or signals they're done for the day.
+- After a weekly review closes, offer a sync in one short sentence if one hasn't happened.
+- "restore" / "new phone" → run Restore below.
 
-## Backup
+## Sync (git)
 
-1. Read all four state files: `state/profile.json`, `state/current_plan.md`, `state/summary.md`, and `state/log.jsonl` (this flow is the ONLY one allowed to read `log.jsonl` in full — a backup needs full fidelity).
-2. Bundle them into ONE JSON snapshot:
+If this runtime has a shell and network access (Cursor cloud agents, Claude Code, any desktop):
+
+1. `git pull --rebase` — picks up anything written since this session started (e.g. the Health Shortcut appending `health.jsonl` via the GitHub API while you were coaching).
+2. Stage the `state/` files (never anything else): `git add state/`
+3. Commit: `git commit -m "state: YYYY-MM-DD sync"` — amend nothing, force nothing.
+4. `git push`
+5. Confirm in one sentence. If pull/push fails (offline, conflict), say so plainly and fall back to the Drive snapshot below if the user wants a backup now.
+
+Runtimes without a shell (plain chat): skip git silently and use the Drive path below if the user wants a backup.
+
+## Drive snapshot (optional, redundancy)
+
+1. Read all four state files: `state/profile.json`, `state/current_plan.md`, `state/summary.md`, and `state/log.jsonl` (this flow is the ONLY one allowed to read `log.jsonl` in full — a backup needs full fidelity). Include `state/health.jsonl` too if it exists.
+2. Bundle into ONE JSON snapshot:
 
 ```json
 {
@@ -23,23 +36,24 @@ Drive folder: `CastAWeigh Backups` (create it on first backup if it doesn't exis
     "profile.json": { "...profile object..." },
     "current_plan.md": "<full text>",
     "summary.md": "<full text>",
-    "log.jsonl": "<full text, one JSON object per line>"
+    "log.jsonl": "<full text, one JSON object per line>",
+    "health.jsonl": "<full text, one JSON object per line>"
   }
 }
 ```
 
-3. Save it to the `CastAWeigh Backups` Drive folder as `castaweigh-backup-YYYY-MM-DD-HHmm.json`, using the platform's Google Drive capability. If the platform can only create Office/text documents, save the same content as `.txt` — the restore step reads either.
-4. Confirm in one sentence: what was saved and where. If the folder already holds many backups (>10), mention that old ones can be deleted manually in Drive — you can't delete files yourself.
+3. Save it to the `CastAWeigh Backups` Drive folder (create it on first use) as `castaweigh-backup-YYYY-MM-DD-HHmm.json`, using the platform's Google Drive capability. If the platform can only create Office/text documents, save the same content as `.txt` — restore reads either.
+4. Confirm in one sentence. Old snapshots can be cleaned up manually in Drive — you can't delete files yourself.
 
 ## Restore
 
-1. Search the `CastAWeigh Backups` Drive folder for the newest `castaweigh-backup-*` file (any extension).
-2. Read it, then write each entry in `files` back to its path under `state/` (create `state/` if needed). Overwrite local files — the backup is the source of truth during a restore.
-3. If a backup file is corrupt or unreadable, fall back to the next-newest one and say so.
-4. Confirm in 1–2 sentences: backup date restored and a one-line profile recap (name, current goal) so the user can sanity-check it's really their data. Then resume normal routing — usually the check-in flow.
+- **Git path (preferred):** the user clones the private `castaweigh-state` repo — state comes with it. Done. One sentence confirming the latest commit date and a one-line profile recap (name, current goal) so they can sanity-check it's their data.
+- **Drive path (fallback):** find the newest `castaweigh-backup-*` file in the `CastAWeigh Backups` folder, read it, write each entry in `files` back to its path under `state/` (create `state/` if needed; the backup is the source of truth). If it's corrupt, fall back to the next-newest and say so.
+- If the user is mid-setup on a NEW device with neither repo access nor Drive, seed from `templates/` instead and tell them their history will return at the next git pull or Drive restore.
 
 ## Rules
 
-- Never back up outside the `CastAWeigh Backups` folder, and never commit `state/` to the public repo.
+- NEVER commit or push `state/` to the public `castaweigh` repo — only to the private `castaweigh-state` repo. If the remote URL is the public repo, stop and warn.
+- Never back up outside the `CastAWeigh Backups` Drive folder.
 - Never restore on top of an existing local `state/` unless the user explicitly asked — warn first that local data will be overwritten.
-- If no Drive access is available in the current runtime, say so plainly and suggest running sync from a chat that has the Google Drive connector enabled.
+- If neither git nor Drive is available in the current runtime, say so plainly and name what would work (Cursor cloud agent, Claude Code, or a chat with the Drive connector).
