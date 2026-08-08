@@ -13,14 +13,19 @@ CLAUDE.md  ── the core brain, always loaded (~120 lines)
    ├── flows/intake.md    ── first-run setup, staged + resumable
    ├── flows/checkin.md   ── daily anchor conversation
    ├── flows/log.md       ── intra-day quick logging (cheapest interaction)
-   └── flows/review.md    ── weekly progress vs goals
+   ├── flows/review.md    ── weekly progress vs goals
+   └── flows/sync.md      ── Drive backup at session end + restore on new device
         │ read / write
         ▼
-   state/  ── LOCAL ONLY, gitignored, never leaves your device
+   state/  ── LOCAL ONLY, gitignored
       ├── profile.json      ── who you are, goals, equipment, measurements
       ├── current_plan.md   ── this week's nutrition + exercise plan
       ├── log.jsonl         ── append-only daily log, one line per entry
+      ├── health.jsonl      ── iPhone Health data, written daily by a Shortcut
       └── summary.md        ── rolling long-term memory, updated weekly
+        │ end of session: dated snapshot
+        ▼
+   Google Drive/CastAWeigh Backups  ── your own Drive, restore anytime
 ```
 
 Token efficiency is the core design constraint:
@@ -40,6 +45,7 @@ mkdir -p state
 cp templates/profile.json state/profile.json
 cp templates/current_plan.md state/current_plan.md
 cp templates/log.jsonl state/log.jsonl
+cp templates/health.jsonl state/health.jsonl
 cp templates/summary.md state/summary.md
 ```
 
@@ -61,10 +67,20 @@ cp templates/summary.md state/summary.md
 | "morning check-in" / "let's check in" | `flows/checkin.md` — daily anchor: review since last talk, adjust plan |
 | "log: had eggs and toast" | `flows/log.md` — one-line append, 1–2 sentence reply |
 | "weekly review" / "how am I doing" | `flows/review.md` — progress vs goals, update summary + plan |
+| "sync" / "backup" / "done for today" | `flows/sync.md` — dated snapshot of `state/` to your Google Drive |
+| "restore" / "new phone" | `flows/sync.md` — rebuild `state/` from your newest Drive backup |
+
+## iPhone Health integration
+
+A small Apple Shortcut (see `shortcuts/README.md`) runs every morning on a schedule and appends yesterday's Health summary — steps, exercise minutes, active calories, resting heart rate, sleep, weight — plus each workout, to `state/health.jsonl`. The check-in flow cross-references it so you never have to re-report what your phone already saw, and the weekly review folds activity and sleep trends into your progress assessment. Free, on-device, no third-party accounts.
+
+## Backups and restore
+
+State lives on your device, but you're not chained to it. Say "sync" (or just wrap up your check-in) and the agent saves one dated snapshot file to a `CastAWeigh Backups` folder in your own Google Drive — new file each time, nothing overwritten. On a new phone or fresh session, say "restore" and it rebuilds `state/` from your newest backup. Requires the Google Drive connector in the Claude app (Settings → Connectors), with file creation enabled.
 
 ## Privacy
 
-`state/` is gitignored and stays on your device. The public repo contains only instructions, templates, and the design spec (`castaweigh.json`, a draw.io diagram that is the spec of record). Your health data is never committed and never leaves your control.
+`state/` is gitignored and stays on your device. The public repo contains only instructions, templates, and the design spec (`castaweigh.json`, a draw.io diagram that is the spec of record). Backups go only to *your* Google Drive when you ask. Health data is pulled on-device by the Shortcut and lands in the same gitignored folder. Nothing is ever committed, and nothing leaves your control except the Drive backups you trigger.
 
 ## Safety
 

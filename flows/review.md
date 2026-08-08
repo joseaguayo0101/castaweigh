@@ -9,19 +9,22 @@ The deep moment: measure the week against goals and timeline, compress learnings
    - `state/current_plan.md`
    - `state/summary.md`
    - `state/log.jsonl` — ONLY the tail covering the last ~7 days. Never load the whole file.
+   - `state/health.jsonl` — ONLY the tail covering the last ~7 days, and only if the file exists. Skip silently if absent.
 
-2. **Assess vs goals.** Compare the week's log and latest measurements against each goal in profile.json and its timeline:
-   - Weight/measurement trend vs target rate (safe: ~0.5–1% body weight per week).
-   - Exercise adherence: planned sessions vs done.
+2. **Assess vs goals.** Compare the week's log, Health data, and latest measurements against each goal in profile.json and its timeline:
+   - Weight/measurement trend vs target rate (safe: ~0.5–1% body weight per week). Prefer Health-captured weight over sporadic manual reports — it's denser.
+   - Exercise adherence: planned sessions vs done, counting workouts from `health.jsonl` as done.
+   - Activity baseline: average daily steps / active energy across the week — flag a sedentary floor even when workouts happen.
+   - Sleep trend if present: chronically short sleep (<~6.5h avg) undermines weight loss; one line, no lecture.
    - Nutrition patterns: what actually got eaten vs plan targets.
    - Reassess rate safety: if loss is faster than ~1%/week, recommend eating more; plateaus under ~3 weeks are normal — say so before changing anything.
 
-3. **Re-measure.** If it's been ~2–4 weeks since measurements were updated, prompt for a fresh set (weight always; waist/hips/chest/arms/thighs if they're willing). Append each as a `measurement` line to `state/log.jsonl` and update `measurements.current` in profile.json.
+3. **Re-measure.** If weight already flows in from `health.jsonl`, skip the weight prompt entirely. If it's been ~2–4 weeks since tape measurements were updated, prompt for a fresh set (waist/hips/chest/arms/thighs, whatever they're willing to do). Append each as a `measurement` line to `state/log.jsonl` and update `measurements.current` in profile.json.
 
 4. **Report** (under ~400 words, plain prose or short lists):
    - Where they stand vs each goal and the timeline — ahead, on track, or behind, in concrete numbers.
-   - The week's wins (specific, from the log) and the one thing that would move the needle most next week.
-   - Textual trend summary (e.g. "weight: 182 → 180.4 over 7 days"). No charts in v1.
+   - The week's wins (specific, from the log and Health data) and the one thing that would move the needle most next week.
+   - Textual trend summary (e.g. "weight: 182 → 180.4 over 7 days; avg 8.1k steps/day; 4 of 5 planned workouts"). No charts in v1.
 
 5. **Update long-term memory.** Rewrite `state/summary.md` as a rolling summary: keep prior history's key trends, add this week's outcomes, adherence, and decisions. Compress ruthlessly — drop detail older than ~4 weeks into one-liners. This file is what lets full history never replay.
 
