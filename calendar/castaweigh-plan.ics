@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CastAWeigh//Weekly Plan//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:CastAWeigh Plan
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:castaweigh-mon-cardio@castaweigh
+DTSTAMP:20260824T020000Z
+DTSTART;TZID=America/Los_Angeles:20260824T180000
+DTEND;TZID=America/Los_Angeles:20260824T183000
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:Cardio — elliptical or bike (25 min)
+DESCRIPTION:Easy pace. Warm up 5 min\, stretch after. CastAWeigh plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:castaweigh-tue-strength@castaweigh
+DTSTAMP:20260824T020000Z
+DTSTART;TZID=America/Los_Angeles:20260825T180000
+DTEND;TZID=America/Los_Angeles:20260825T184500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Strength — full body (dumbbells)
+DESCRIPTION:Dumbbell press\, rows\, goblet squats (light)\, bench step-ups. 2 sets x 10-12. Form first. CastAWeigh plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:castaweigh-wed-yoga@castaweigh
+DTSTAMP:20260824T020000Z
+DTSTART;TZID=America/Los_Angeles:20260826T180000
+DTEND;TZID=America/Los_Angeles:20260826T183000
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Yoga — gentle flow (20-30 min)
+DESCRIPTION:Beginner/gentle flow. Focus hips\, hamstrings\, lower back. Easy on the right knee. CastAWeigh plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:castaweigh-thu-cardio@castaweigh
+DTSTAMP:20260824T020000Z
+DTSTART;TZID=America/Los_Angeles:20260827T180000
+DTEND;TZID=America/Los_Angeles:20260827T183000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Cardio or brisk walk (25-30 min)
+DESCRIPTION:Elliptical\, bike\, or brisk walk. CastAWeigh plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:castaweigh-fri-strength@castaweigh
+DTSTAMP:20260824T020000Z
+DTSTART;TZID=America/Los_Angeles:20260828T180000
+DTEND;TZID=America/Los_Angeles:20260828T184500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Strength — full body (dumbbells)
+DESCRIPTION:Shoulder press\, bent rows\, RDLs (light)\, planks 20-30 sec. 2 sets x 10-12. CastAWeigh plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:castaweigh-sat-weighin@castaweigh
+DTSTAMP:20260824T020000Z
+DTSTART;TZID=America/Los_Angeles:20260829T064500
+DTEND;TZID=America/Los_Angeles:20260829T070000
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Weigh-in (morning)
+DESCRIPTION:After bathroom\, before food. Send the number to coach. CastAWeigh plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:castaweigh-sat-walk@castaweigh
+DTSTAMP:20260824T020000Z
+DTSTART;TZID=America/Los_Angeles:20260829T070000
+DTEND;TZID=America/Los_Angeles:20260829T080000
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Morning walk with friend (30+ min)
+DESCRIPTION:Conversational pace. CastAWeigh plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:castaweigh-sun-yoga@castaweigh
+DTSTAMP:20260824T020000Z
+DTSTART;TZID=America/Los_Angeles:20260830T090000
+DTEND;TZID=America/Los_Angeles:20260830T093000
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:Yoga / recovery (20-30 min)
+DESCRIPTION:Gentle yoga or stretching. Full recovery focus. CastAWeigh plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:castaweigh-daily-steps@castaweigh
+DTSTAMP:20260824T020000Z
+DTSTART;TZID=America/Los_Angeles:20260824T200000
+DTEND;TZID=America/Los_Angeles:20260824T201500
+RRULE:FREQ=DAILY
+SUMMARY:Steps check — hit 8\,000 yet?
+DESCRIPTION:Daily floor is 8\,000 steps. Short walk now if under. CastAWeigh plan.
+END:VEVENT
+END:VCALENDAR
