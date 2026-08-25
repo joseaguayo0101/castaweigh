@@ -23,8 +23,8 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:castaweigh-mon-cardio@castaweigh
 DTSTAMP:20260824T020000Z
-DTSTART;TZID=America/Los_Angeles:20260824T180000
-DTEND;TZID=America/Los_Angeles:20260824T183000
+DTSTART;TZID=America/Los_Angeles:20260824T200000
+DTEND;TZID=America/Los_Angeles:20260824T203000
 RRULE:FREQ=WEEKLY;BYDAY=MO
 SUMMARY:Cardio — elliptical or bike (25 min)
 DESCRIPTION:Easy pace. Warm up 5 min\, stretch after. CastAWeigh plan.
@@ -32,8 +32,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:castaweigh-tue-strength@castaweigh
 DTSTAMP:20260824T020000Z
-DTSTART;TZID=America/Los_Angeles:20260825T180000
-DTEND;TZID=America/Los_Angeles:20260825T184500
+DTSTART;TZID=America/Los_Angeles:20260825T200000
+DTEND;TZID=America/Los_Angeles:20260825T204500
 RRULE:FREQ=WEEKLY;BYDAY=TU
 SUMMARY:Strength — full body (dumbbells)
 DESCRIPTION:Dumbbell press\, rows\, goblet squats (light)\, bench step-ups. 2 sets x 10-12. Form first. CastAWeigh plan.
@@ -41,8 +41,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:castaweigh-wed-yoga@castaweigh
 DTSTAMP:20260824T020000Z
-DTSTART;TZID=America/Los_Angeles:20260826T180000
-DTEND;TZID=America/Los_Angeles:20260826T183000
+DTSTART;TZID=America/Los_Angeles:20260826T200000
+DTEND;TZID=America/Los_Angeles:20260826T203000
 RRULE:FREQ=WEEKLY;BYDAY=WE
 SUMMARY:Yoga — gentle flow (20-30 min)
 DESCRIPTION:Beginner/gentle flow. Focus hips\, hamstrings\, lower back. Easy on the right knee. CastAWeigh plan.
@@ -50,8 +50,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:castaweigh-thu-cardio@castaweigh
 DTSTAMP:20260824T020000Z
-DTSTART;TZID=America/Los_Angeles:20260827T180000
-DTEND;TZID=America/Los_Angeles:20260827T183000
+DTSTART;TZID=America/Los_Angeles:20260827T200000
+DTEND;TZID=America/Los_Angeles:20260827T203000
 RRULE:FREQ=WEEKLY;BYDAY=TH
 SUMMARY:Cardio or brisk walk (25-30 min)
 DESCRIPTION:Elliptical\, bike\, or brisk walk. CastAWeigh plan.
@@ -59,8 +59,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:castaweigh-fri-strength@castaweigh
 DTSTAMP:20260824T020000Z
-DTSTART;TZID=America/Los_Angeles:20260828T180000
-DTEND;TZID=America/Los_Angeles:20260828T184500
+DTSTART;TZID=America/Los_Angeles:20260828T200000
+DTEND;TZID=America/Los_Angeles:20260828T204500
 RRULE:FREQ=WEEKLY;BYDAY=FR
 SUMMARY:Strength — full body (dumbbells)
 DESCRIPTION:Shoulder press\, bent rows\, RDLs (light)\, planks 20-30 sec. 2 sets x 10-12. CastAWeigh plan.
@@ -68,7 +68,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:castaweigh-sat-weighin@castaweigh
 DTSTAMP:20260824T020000Z
-DTSTART;TZID=America/Los_Angeles:20260829T064500
+DTSTART;TZID=America/Los_Angeles:20260829T063000
 DTEND;TZID=America/Los_Angeles:20260829T070000
 RRULE:FREQ=WEEKLY;BYDAY=SA
 SUMMARY:Weigh-in (morning)
